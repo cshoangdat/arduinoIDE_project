@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IoT Laboratory </title>
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body>
+		<h1 style="color: green;"> THỰC TẬP CƠ SỞ ỨNG DỤNG IOTs - Lớp chiều T3 </h1>
+		<h2>Nhiệt độ: <span style="color: red;" id="nhietdo">None</span> </h2>
+		<h2>Độ Ẩm: <span style="color: blue;" id="doam">None</span> </h2>
+
+		<div id="container">
+			<div class="row"> <!-- ROW 01 -->
+				<div class="device">
+					<img id="d01_img" src="./img/light_bulb_off.png" alt="img" style="width:100%">
+					<p>ĐÈN 01</p>
+					<div>
+						<button id="d01_on">ON</button>
+						<button id="d01_off">OFF</button>
+					</div>									
+				</div>
+				<div class="device">
+					<img id="d02_img" src="./img/light_bulb_off.png" alt="img" style="width:100%">
+					<p>ĐÈN 02</p>
+					<div>
+						<button id="d02_on">ON</button>
+						<button id="d02_off">OFF</button>
+					</div>									
+				</div>
+			</div>
+			
+			<div class="row"> <!-- ROW 02 -->
+				<div class="device">
+					<img id="d03_img" src="./img/light_bulb_off.png" alt="img" style="width:100%">
+					<p>ĐÈN 03</p>
+					<div>
+						<button id="d03_on">ON</button>
+						<button id="d03_off">OFF</button>
+					</div>									
+				</div>
+				<div class="device">
+					<img id="d04_img" src="./img/light_bulb_off.png" alt="img" style="width:100%">
+					<p>ĐÈN 04</p>
+					<div>
+						<button id="d04_on">ON</button>
+						<button id="d04_off">OFF</button>
+					</div>									
+				</div>
+			</div>
+		</div>
+
+		<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script> 
+		<script src="control.js"></script>
+
+	</body>	
+
+</html>

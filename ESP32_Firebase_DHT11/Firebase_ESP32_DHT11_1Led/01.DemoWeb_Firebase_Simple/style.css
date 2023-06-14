@@ -1,0 +1,19 @@
+body {
+  margin: 0 30%;
+  text-align: center;
+}
+
+container {
+	width: 1000px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.device {
+	background-color: #00ff3a14;
+    border: dashed 1px;
+}
